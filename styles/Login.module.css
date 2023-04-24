@@ -1,11 +1,11 @@
 .container {
-    margin-top: 4rem;
+    margin-top: 6.5rem;
     width: 50%;
     font-family: 'Ubuntu', sans-serif; 
-    border:3px solid rgb(53, 53, 53);
+    /* border:3px solid rgb(53, 53, 53); */
     text-align: center;
     border-radius: 1.75rem;
-
+background-color: gray;
 }
 .header{
     margin:4rem;
@@ -40,8 +40,9 @@ border-top-width: 0px;
     margin-top: 1.75rem;
     margin-bottom: 3.75rem;
     font-family: 'Ubuntu', sans-serif;
-width: 45%;
-height: 3rem;
+    font-size: 40px;
+width: 20%;
+height: 5rem;
 color:white;
 border-radius: 1rem;
 background-color:rgb(53, 53, 53);
@@ -52,7 +53,12 @@ border-top-width: 0px;
 }
 
 .logo{
-    float:left;
-    margin: 2rem;
-    font-weight: 100;
+    /* float:left;
+    margin: 2rem; */
+    font-weight: 500;
+}
+
+.signUp{
+    font-weight: 1000;
+    font-style: italic;
 }

@@ -6,13 +6,14 @@
     /* padding: 6rem; */
     min-height: 100vh;
     background-color: gray;
+
   }
 .para{
     font-size: large;
     font-style: italic;
 }
 .container {
-    margin-top: 6.5rem;
+    /* margin-top: 6.5rem; */
     width: 50%;
     font-family: 'Ubuntu', sans-serif; 
     /* border:3px solid rgb(53, 53, 53); */
@@ -71,17 +72,38 @@ border-top-width: 0px;
     font-weight: 500;
 }
 
+
 .signUp{
     font-weight: 1000;
     font-style: italic;
 }
-
-@media (max-width: 600px) {
+.h3{
+    margin: 1rem;
+    font-size: 2rem;
+}
+.h3:hover{
+    color:white;
+}
+.loginButton:hover{
+    color: black;
+}
+@media (max-width: 420px) {
+   .main{
+    font-size: 1rem;
+   }
     .uname{
        width: 100%;
     }
     .loginButton{
-       width: 50%;
+       width: 70%;
+    }
+   }
+   @media (min-width: 421px) and (max-width: 600px) {
+    .uname{
+       width: 100%;
+    }
+    .loginButton{
+       width: 70%;
     }
    }
    @media (min-width: 601px) and (max-width: 1120px) {
@@ -92,3 +114,11 @@ border-top-width: 0px;
            width: 50%;
         }
     }   
+    @media (min-width: 1121px) {
+        .uname{
+            width: 45%;
+        }
+        .loginButton{
+            width: 30%;
+         }
+     }   

@@ -1,9 +1,11 @@
 import styles from "..//styles/SignUp.module.css"
+import Link from "next/link"
 // import React from "react"
 export default function SignUp () {
 return (
     <>
-    <div className={styles.main}></div>
+    
+    <div className={styles.main}>
     <div className={styles.container}>
         <div className={styles.header}>
      
@@ -27,9 +29,11 @@ return (
             <br />
             <button className= {styles.loginButton}type="submit">Sign Up</button>
         </form>
-
+        <h3 className={styles.h3}><Link href="/">Back Home</Link></h3>
     </div>
 
+    </div>
+    
     </>
 )
 

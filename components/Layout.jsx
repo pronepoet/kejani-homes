@@ -5,6 +5,7 @@ export default function Layout () {
         <>
             
         <Navbar />
+  
      <div className={styles.name}>
      <h1>Kejani Homes</h1>
      </div>

@@ -1,4 +1,5 @@
  import styles from "..//styles/Login.module.css"
+ import Link from 'next/link'
 // import React from "react"
 export default function Login () {
 return (
@@ -24,7 +25,8 @@ return (
             <button className= {styles.loginButton}type="submit">Login</button>
         </form>
 
-<p className={styles.logo}>&#169; Do not have an account? <span className={styles.signUp}>Sign Up</span> now</p>
+<p className={styles.logo}>&#169; Do not have an account? <Link href="/signup"><span className={styles.signUp}>Sign Up</span></Link> now</p>
+<h3 className={styles.h3}><Link href="/">Back Home</Link></h3>
     </div>
     </div>
  

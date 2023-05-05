@@ -3,6 +3,7 @@
 export default function Login () {
 return (
     <>
+    <div className={styles.main}>
     <div className={styles.container}>
         <div className={styles.header}>
         <h2 className={styles.h2}>Login</h2>
@@ -25,6 +26,8 @@ return (
 
 <p className={styles.logo}>&#169; Do not have an account? <span className={styles.signUp}>Sign Up</span> now</p>
     </div>
+    </div>
+ 
 
     </>
 )

@@ -89,7 +89,7 @@ const Navbar = () => {
                     Why Us
                 </li>
             </Link>
-            <Link href="/">
+            <Link href="listing">
                 <li 
                 onClick={() => setMenuOpen (false)}
                 className="py-4 cursor-pointer"

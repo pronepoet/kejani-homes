@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 6rem; */
+    min-height: 100vh;
+    background-color: gray;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin:auto;
+ 
+  }

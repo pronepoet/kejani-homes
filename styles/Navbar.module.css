@@ -1,10 +1,11 @@
-/* .navbar{
-    background-color: white;
-} */
-/* .name{
-    font-family: 'Ubuntu', sans-serif; 
-    font-size: 3rem;
-    font-weight: 500;
+.navbar{
+    background-color: gray;
+    /* position: fixed;
+    top:0; */
+    min-width: 100vw;
+    /* height: 1rem; */
+    padding:0;
+    margin: 0;
 
-   
-} */
+    
+} 

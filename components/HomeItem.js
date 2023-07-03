@@ -8,7 +8,7 @@ const HomeItem = ({article}) => {
         <a href="" className={articleStyles.carde}>
      
             <h3>{article.title}&rarr;</h3>
-            <p>{article.body}</p>
+            <p>{article.description}</p>
         
         </a>
    

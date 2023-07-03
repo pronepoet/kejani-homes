@@ -2,8 +2,10 @@ import styles from "../styles/Homepage.module.css"
 import Layout from "../components/Layout"
 import Footer from "../styles/Footer.module.css"
 import Navbar from "../components/Navbar"
+import HomeList from "../components/HomeList"
 
-export default function  Homepage (){
+export default function  Homepage ({articles}){
+ 
     return (
         <>
             <Layout />
@@ -13,9 +15,11 @@ export default function  Homepage (){
             <br />  
             <br />
             <div className={styles.carousel}>
-                <h3>Kejani Homes Carousel</h3>
-              
+                <h1>Kejani Homes Carousel</h1>
+      
+            
             </div>
+            <HomeList articles={articles}/>
         </>
     )
 }

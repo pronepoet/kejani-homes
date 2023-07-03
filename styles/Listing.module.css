@@ -12,7 +12,14 @@
   text-align: center;
  }
   
-  
   .container1{
     /* margin-top: 6rem; */
   }
+.card {
+
+}
+
+.carde {
+  padding:2rem;
+  text-align: center;
+}

@@ -1,3 +1,4 @@
+import { server } from '../config'
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
@@ -8,7 +9,8 @@ import Homepage from './homepage'
 // import Login from './login'
 const inter = Inter({ subsets: ['latin'] })
 import Navbar from '../components/Navbar'
-export default function Home() {
+export default function Home({articles}) {
+ 
   return (
     <>
       <Head>
@@ -18,10 +20,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Homepage />
-
-      
+        <Homepage articles={articles}/>
       </main>
     </>
   )
+}
+export const getStaticProps = async () => {
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)
+  const articles = await res.json()
+
+  return {
+      props: {
+          articles
+      }
+  }
 }

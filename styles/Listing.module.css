@@ -15,11 +15,44 @@
   .container1{
     /* margin-top: 6rem; */
   }
-.card {
 
-}
-
-.carde {
+/* .carde {
   padding:2rem;
   text-align: center;
+} */
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
+  grid-gap: 20px; /* Spacing between grid items */
+}
+
+.user_card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+}
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.card span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 34ch;
 }

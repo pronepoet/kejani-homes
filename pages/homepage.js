@@ -13,12 +13,8 @@ export default function  Homepage ({articles}){
             <br />
             <br />
             <br />  
-            <br />
-            <div className={styles.carousel}>
-                <h1>Kejani Homes Carousel</h1>
-      
-            
-            </div>
+         
+         
             <HomeList articles={articles}/>
         </>
     )

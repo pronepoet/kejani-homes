@@ -4,15 +4,21 @@ import articleStyles from '../styles/Listing.module.css'
 const HomeItem = ({article}) => {
   return (
     <>
-    <Link legacyBehavior href="/article/[id]" as={`/article/${article.id}`}>
-        <a href="" className={articleStyles.carde}>
+    <div className={articleStyles.main}>
+ 
+      <Link legacyBehavior href="/article/[id]" as={`/article/${article.id}`}>
+        <a className={articleStyles.card}>
      
-            <h3>{article.title}&rarr;</h3>
+            <h2>{article.title}&rarr;</h2>
             <p>{article.description}</p>
         
         </a>
    
     </Link>
+      </div>
+  
+
+
     </>
   )
 }

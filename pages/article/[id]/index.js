@@ -2,16 +2,20 @@ import { server } from '../../../config'
 import React from 'react'
 import {useRouter} from 'next/router'
 import Link from 'next/link'
+import styles from '/home/phillip/Desktop/kejani-homes/styles/Listing.module.css'
 const article = ({article}) => {
   // const router = useRouter()
   // const {id} = router.query
   return (
     <>
+    <div className={styles.card}>
     This is home {article.id}
-    <h1>{article.title}</h1>
+    <h2>{article.title}</h2>
     <p>{article.description}</p>
     <br />
     <Link href='/'>Go Back</Link>
+    </div>
+  
     </>
   )
 }

@@ -25,7 +25,7 @@ export const articles = [
         title: '1 berdroom apartment',
         location: 'Highrise',
         price: 9000,
-        description: 'A spacious 1 bedroom apartment for the single babes around! 🤣.'
+        description: 'available.'
     },
     {
         id: '5',
@@ -39,6 +39,6 @@ export const articles = [
         title: '1 acre land',
         location: 'Mombasa',
         price: 9000000,
-        description: 'This land is on the sea, partly high leveled with ground and partly low leveled to the sea! 🤣.'
+        description: 'Available.'
     },
 ]
